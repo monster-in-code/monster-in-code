@@ -23,11 +23,8 @@ jobs:
           npm i @marp-team/marp-cli --no-save
       - name: Build Marp slide deck
         run: |
-          node_modules/.bin/marp --theme monster.css -- monster-in-code.md
+          scripts/build.sh
         env:
-          # Please update URL if you want to use custom domain
-          URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
-
           # Recommend to set lang for your deck to get better rendering for Open Graph image
           LANG: en-US
 
@@ -37,4 +34,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: .
+          FOLDER: docs
