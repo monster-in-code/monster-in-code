@@ -23,7 +23,7 @@ jobs:
           npm i @marp-team/marp-cli --no-save
       - name: Build Marp slide deck
         run: |
-          marp --theme monster.css -- monster-in-code.md
+          node_modules/.bin/marp --theme monster.css -- monster-in-code.md
         env:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
