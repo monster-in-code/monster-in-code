@@ -223,3 +223,54 @@ And this is where the monster emerges.
 <!--
 You can see how something innocuous grows into this monster thing over time, if we just flex it enough.
 -->
+
+---
+<!-- _class: lead monster_head -->
+
+## What is
+# Sucky Code?
+
+---
+<!-- _class: monster_arms -->
+
+## Sucky Code is...
+## Difficult to Read
+### Therefore
+## Difficult to Comprehend
+## Difficult to Reason about
+### That leads to systems that are
+## Difficult to Change
+
+---
+<!-- _class: lead -->
+
+![w:1200](assets/monster_in_wardrobe_1.svg)
+
+# Our Wardrobe
+
+---
+<!-- _class: lead -->
+
+![w:1200](assets/monster_in_wardrobe_2.svg)
+
+# Our Wardrobe
+
+---
+<!-- _class: lead -->
+
+## Your weapons to
+# Fight the Monster
+
+![w:500](assets/weapons.svg)
+
+---
+<!-- _class: main -->
+
+# Love your code
+
+---
+<!-- _class: main monster_head -->
+
+# Love your monster
+
+---
